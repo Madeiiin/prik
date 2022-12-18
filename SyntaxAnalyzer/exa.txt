@@ -1,0 +1,1 @@
+public static string Program = "program var {description} {body} end."

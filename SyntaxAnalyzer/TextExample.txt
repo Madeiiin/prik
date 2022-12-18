@@ -1,0 +1,19 @@
+program var
+
+' a, b, i %
+' typefloat !
+' typebool $
+
+begin
+
+let a = 231d;
+b = 101d;
+typefloat = 234E+13;
+
+for ( i; i < b; i = i + 1d) output (i); # Комментарий #
+if i <> a then output(i)
+else input (i a) end_else;
+
+do while b <= 100d output (a or 251d)
+loop;
+end.
